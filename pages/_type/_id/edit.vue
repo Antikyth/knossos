@@ -1,6 +1,6 @@
 <template>
   <div class="page-contents legacy-label-styles">
-    <header class="header-card">
+    <header class="universal-card">
       <div class="header__row">
         <h2 class="header__title">Edit project</h2>
         <div class="input-group">
@@ -432,7 +432,7 @@
         </div>
       </label>
     </section>
-    <section class="header-card donations">
+    <section class="universal-card donations">
       <div class="header__row">
         <h3 class="header__title">Donation links</h3>
         <div class="input-group">
@@ -946,8 +946,7 @@ section.donations {
 }
 
 .card,
-.universal-card,
-.header-card {
+.universal-card {
   margin-bottom: 0;
 }
 
